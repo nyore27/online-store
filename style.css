@@ -88,9 +88,6 @@ ion-icon {
 ion-icon:hover {
     cursor: pointer;
 }
-.search a {
-    display:flex;
-}
 
 header a ion-icon {
     position:relative;
