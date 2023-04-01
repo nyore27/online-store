@@ -15,13 +15,7 @@ header {
     display:flex;
 }
 logo a {
-    color:white;
-    transition-duration: 1s;
     font-weight: 800;
-}
-logo a:hover {
-    color:rgb(240, 197, 6);
-    transition-duration: 1s;
 }
 .heading ul li {
      list-style: none;
@@ -87,9 +81,6 @@ ion-icon {
 
 ion-icon:hover {
     cursor: pointer;
-}
-.search a {
-    display:flex;
 }
 
 header a ion-icon {
@@ -165,11 +156,6 @@ header a ion-icon {
 
 .heading1 {
     opacity:0;
-}
-
-.search {
-    display:flex;
-    position: relative;
 }
 
 .section1 {
@@ -310,24 +296,6 @@ footer {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-}
-
-.footer2 .heading:hover {
-     color:rgb(243, 168, 7);
-    
-}
-
-.footer2 .div:hover {
-    transform: scale(1.05);
-}
-
-.footer3 h4 {
-    margin:0 10px;
-}
-
-.footer2 div {
-    margin:10px;
     
 }
 
@@ -542,11 +510,6 @@ cursor:pointer;
 
     .close {
         z-index:34;
-    }
-
-    .search a {
-        display:flex;
-        flex-wrap: nowrap;
     }
 
    
