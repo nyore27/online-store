@@ -95,8 +95,8 @@ header a ion-icon {
 }
 
 .img-slider img {
-    height:1020px;
-    width:1550px;
+    height:720px;
+    width:1080px;
 }
 
  @keyframes slide {
@@ -152,8 +152,8 @@ header a ion-icon {
     display:flex;
     float:left;
     position:relative;
-    width:1550px;
-    height:1020px;
+    width:1080px;
+    height:720px;
     animation-name:slide;
     animation-duration: 10s;
     animation-iteration-count: infinite;
