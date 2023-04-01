@@ -95,8 +95,8 @@ header a ion-icon {
 }
 
 .img-slider img {
-    height:720px;
-    width:1080px;
+    height:1020px;
+    width:1550px;
 }
 
  @keyframes slide {
@@ -152,8 +152,8 @@ header a ion-icon {
     display:flex;
     float:left;
     position:relative;
-    width:1080px;
-    height:720px;
+    width:1550px;
+    height:1020px;
     animation-name:slide;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -301,32 +301,14 @@ footer {
     
 }
 
-.footer3 {
+/* .footer3 {
     margin-top:60px;
     margin-bottom: 20px;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     
-}
-
-.footer2 .heading:hover {
-     color:rgb(243, 168, 7);
-    
-}
-
-.footer2 .div:hover {
-    transform: scale(1.05);
-}
-
-.footer3 h4 {
-    margin:0 10px;
-}
-
-.footer2 div {
-    margin:10px;
-    
-}
+}; */
 
 .menu {
     visibility:hidden;
