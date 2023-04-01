@@ -15,7 +15,7 @@ header {
     display:flex;
 }
 logo a {
-    font-weight: 200;
+    font-size: small;
 }
 .heading ul li {
      list-style: none;
