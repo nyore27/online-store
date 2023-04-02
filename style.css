@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 header {
     display: flex;
     justify-content: space-evenly;
@@ -10,18 +12,31 @@ header {
     height:60px;
     width:100%;
     background:black;
+    
 }
+
 .heading ul {
     display:flex;
 }
-logo a {
-    font-size: small;
-}
-.heading ul li {
-     list-style: none;
+
+.logo a {
+    color:white;
+    transition-duration: 1s;
+    font-weight: 800;
 }
 
- .heading ul li a {
+.logo a:hover {
+    color:rgb(240, 197, 6);
+    transition-duration: 1s;
+    
+}
+
+.heading ul li {
+    list-style: none;
+    
+}
+
+.heading ul li a {
     margin:5px;
     text-decoration: none;
     color:black;
@@ -32,6 +47,7 @@ logo a {
     font-size: 18px;
     transition-duration: 1s;
 }
+
 .heading ul li a:active {
     color:red;
 }
@@ -39,9 +55,10 @@ logo a {
 .heading ul li a:hover {
     color:rgb(243, 168, 7);
     transition-duration: 1s;
+    
 }
 
- .heading ul li a::before {
+.heading ul li a::before {
     content:'';
     height:2px;
     width:0px;
@@ -50,11 +67,14 @@ logo a {
     bottom:0;
     background-color: white;
     transition-duration: 1s;
+    
 }
+
 .heading ul li a:hover::before {
     width:100%;
     transition-duration: 1s;
     background-color:rgb(243, 168, 7);
+
 }
 
 #input {
@@ -83,6 +103,10 @@ ion-icon:hover {
     cursor: pointer;
 }
 
+.search a {
+    display:flex;
+}
+
 header a ion-icon {
     position:relative;
     right:3px;
@@ -93,57 +117,70 @@ header a ion-icon {
     width:1080px;
 }
 
- @keyframes slide {
-     0% {
+@keyframes slide {
+    0% {
         left:0px;
-    }
-
-     15% {
-        left:0px;
-    }
-     20% {
-       
         
     }
 
-     32% {
+    15% {
+        left:0px;
+
+    }
+
+    20% {
+        left:-1080px;
         
     }
 
-     35% {
-      left:-2160px;
+    32% {
+        left:-1080px;
+        
+    }
+
+    35% {
+        left:-2160px;
+        
     }
 
     47% {
         left:-2160px;
+        
     }
 
     50% {
         left:-3240px;
+        
     }
 
     63% {
         left:-3240px;
+
     }
 
     66% {
         left:-4320px;
+        
     }
 
     79% {
         left:-4320px;
+        
     }
 
     82% {
         left:-5400px;
+        
     }
 
     100% {
-        left: 0px;   
+        left:0px;
+        
     }
 }
+
 .img-slider {
-    display:flex;
+     display:flex;
     float:left;
     position:relative;
     width:1080px;
@@ -152,10 +189,17 @@ header a ion-icon {
     animation-duration: 10s;
     animation-iteration-count: infinite;
     transition-duration:2s;
+    
 }
 
 .heading1 {
     opacity:0;
+}
+
+.search {
+    display:flex;
+    position: relative;
+    
 }
 
 .section1 {
@@ -164,6 +208,7 @@ header a ion-icon {
     justify-content: center;
     align-items: center;
     margin:0px auto;
+    
 }
 
 .section2 .container {
@@ -173,7 +218,9 @@ header a ion-icon {
     flex-wrap: wrap;
     justify-content:center;
     margin:10px auto;
+
 }
+
 .section2 .container .items {
     margin: 10px;
     width:200px;
@@ -191,6 +238,7 @@ header a ion-icon {
     padding-top:4px;
     color:white;
     margin: 0;
+
 }
 
 .section2 .container .items .price {
@@ -200,6 +248,7 @@ header a ion-icon {
     width:100%;
     color:rgb(255, 0, 0);
     font-weight: 650;
+    
 }
 
 .section2 .container .items .info {
@@ -214,11 +263,13 @@ header a ion-icon {
     padding: 0;
     border-radius:12px;
     transition-duration:0.8s;
+    
 }
 
 .section2 .container .items .img {
     overflow: hidden;
     margin: 0;
+    
 }
 
 .section2 .container .items:hover .img img {
@@ -234,12 +285,14 @@ footer {
     align-items: center;
     color:white;
 }
+
 .footer1 {
     display:flex;
     flex-direction: column;
     align-items: center;
     color:white;
     margin-top:15px;
+    
 }
 
 .social-media {
@@ -260,11 +313,13 @@ footer {
 .social-media a ion-icon {
     color:white;
     background-color: black;
+    
 }
 
 .social-media a:hover ion-icon {
     color:red;
     transform: translateY(5px);
+    
 }
 
 .footer2 {
@@ -279,15 +334,18 @@ footer {
 .footer0 {
     font-weight:1200;
     transition-duration: 1s;
+    
 }
 
 .footer0:hover {
     color:rgb(243, 168, 7);
+    
 }
+
 .footer2 .heading {
     font-weight: 900;
     font-size: 18px;
-    
+
 }
 
 .footer3 {
@@ -296,12 +354,28 @@ footer {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.footer2 .heading:hover {
+    color:rgb(243, 168, 7);
+}
+
+.footer2 .div:hover {
+    transform: scale(1.05);
     
+}
+
+.footer3 h4 {
+    margin:0 10px;
+    
+}
+
+.footer2 div {
+    margin:10px;
 }
 
 .menu {
     visibility:hidden;
-    
 }
 
 .heading1 .ham:active {
@@ -309,16 +383,18 @@ footer {
 }
 
 .items {
-   overflow:hidden;
+    overflow:hidden;
 }
 
 .ham,
 .close {
-cursor:pointer;
+    cursor:pointer;
 }
-@media screen and (max-width:1250px) {
+
+@media screen and (max-width:1366px) {
     .heading ul li {
         display:none;
+    
     }
 
     .items {
@@ -351,14 +427,17 @@ cursor:pointer;
 
         15% {
             left:0vw;
+            
         }
 
-        20% {
-            left:-80vw;
+         20% {
+           left:-80vw;
+           
         }
 
-        32% {
+       32% {
             left:-80vw;
+            
         }
 
         35% {
@@ -366,11 +445,12 @@ cursor:pointer;
         }
 
         47% {
-        left:-160vw;
+            left:-160vw;
+        
         }
 
         50% {
-        left:-240vw;
+            left:-240vw;
         }
 
         63% {
@@ -391,9 +471,9 @@ cursor:pointer;
 
         100% {
             left:0vw;
+            
         }
     }
-}
 
     .menu ul {
         display:flex;
@@ -419,6 +499,7 @@ cursor:pointer;
     .close:active {
         color:red;
     }
+
     .menu ul li {
         list-style: none;
         margin: 20px;
@@ -426,6 +507,7 @@ cursor:pointer;
         width:80%;
         text-align:center;
         padding-top:10px;
+        
     }
 
     .menu ul li a {
@@ -449,7 +531,6 @@ cursor:pointer;
         animation-duration: 10s;
         animation-iteration-count: infinite;
         transition-duration:2s;
-        
     }
 
     .section1 {
@@ -459,6 +540,7 @@ cursor:pointer;
         align-items: center;
         margin:0px auto;
     }
+
     .heading1 {
         opacity: 1;
         position:relative;
@@ -474,7 +556,6 @@ cursor:pointer;
     .heading1 .ham {
         background-color: black;
         color:white;
-       
     }
 
     #input {
@@ -484,9 +565,12 @@ cursor:pointer;
 
     header {
         height:150px;
+        
     }
 
-@media screen and (max-width:550px) {
+}
+
+@media screen and (max-width:1366px) {
     .heading ul li {
         display:none;
     }
@@ -501,16 +585,18 @@ cursor:pointer;
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
-        
     }
 
     #input {
-        width:150px;
+         width:150px;
     }
 
     .close {
         z-index:34;
     }
 
-   
+    .search a {
+        display:flex;
+        flex-wrap: nowrap;
+    }
 }
