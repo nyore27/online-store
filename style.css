@@ -1167,7 +1167,7 @@ iframe {
     }
 }
 
-@media(min-width: 501px) and (max-width: 768px) {
+@media(min-width: 768px) and (max-width: 1366px) {
     .head {
         display: none;
     }
@@ -1224,7 +1224,7 @@ iframe {
     }
 }
 
-@media(orientation: landscape) and (max-height: 500px) {
+@media(orientation: landscape) and (max-height: 1366px) {
     .header {
         height: 90vmax;
     }
@@ -1252,7 +1252,7 @@ iframe {
     }
 }
 
-@media(min-width: 501px) and (max-width: 768px) {
+@media(min-width: 768px) and (max-width: 1366px) {
     .form {
         display: flex;
         flex-direction: column;
