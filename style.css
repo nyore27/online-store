@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    width: 90%;
+    max-width: 1300px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -109,7 +109,7 @@ body {
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
     .navbar {
         opacity: 0.95;
     }
